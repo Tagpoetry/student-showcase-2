@@ -12,7 +12,13 @@ body {
 body section {
   border: solid thin black;
 }
+#student-14 {
+background: slategray;
+}
+#student-14 a {
+  border: solid 1px red;
 
+}
 /* Style everything scoped to your <section> id! You do not need to use `display: grid` - just stick with the things we learned in class and be creative. `font-family` is already done for you.
 
 Be sure to take pride in your work and organize your styles properly and resolve any 'red lines.'
