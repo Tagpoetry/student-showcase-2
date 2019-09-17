@@ -14,14 +14,27 @@ body section {
 }
 
 #student-4 {
-  background-color: #9aecdb;
+  background-color: #45e4c1;
+}
+
+#student-4 h2 {
+  background: #f9e5bc;
+  text-shadow: 1.5px 1.5px #065c49;
+  color: #f9e5bc;
 }
 
 #student-4 li {
-  background: white;
+  background: #fffdd0;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px #065c49;
+  color: #fffdd0;
 }
 
-
+#student-4 p {
+  font-style: italic;
+}
 
 /* Style everything scoped to your <section> id! You do not need to use `display: grid` - just stick with the things we learned in class and be creative. `font-family` is already done for you.
 
