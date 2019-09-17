@@ -13,6 +13,16 @@ body section {
   border: solid thin black;
 }
 
+#student-4 {
+  background-color: #9aecdb;
+}
+
+#student-4 li {
+  background: white;
+}
+
+
+
 /* Style everything scoped to your <section> id! You do not need to use `display: grid` - just stick with the things we learned in class and be creative. `font-family` is already done for you.
 
 Be sure to take pride in your work and organize your styles properly and resolve any 'red lines.'
