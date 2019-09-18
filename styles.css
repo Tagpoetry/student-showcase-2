@@ -14,21 +14,19 @@ body {
 }
 
 #student-3 h2 {
-  color: #D81E5B;
+  color: #d81e5b;
   font-weight: bold;
 }
 
 #student-3 li {
-color: #3A3335;
-font-weight: lighter;
+  color: #3a3335;
+  font-weight: lighter;
 }
 
 #student-3 p {
-  color: #000
-  background-color: #FDEFD5;
+  color: #000;
+  background-color: #fdefd5;
 }
-
-
 
 /* Style everything scoped to your <section> id! You do not need to use `display: grid` - just stick with the things we learned in class and be creative. `font-family` is already done for you.
 
@@ -51,33 +49,26 @@ Be sure to take pride in your work and organize your styles properly and resolve
   padding: 0 2vw;
 } */
 
-  #student-5 .container {
-   text-align: center;
-  }
-
-  #student-5 ol {
-    display: inline-block;
-    text-align: left;
-  }
-
-  #student-5 .align-center {
-    text-align: center;
-  }
-
-#student-5 ol,
-#student-5 p {
-    margin: auto;
-    padding: 0 2vw;
+#student-5 .container {
+  text-align: center;
 }
 
 #student-5 ol {
+  display: inline-block;
   list-style-position: inside;
+  text-align: left;
+}
+
+#student-5 .align-center {
+  text-align: center;
+}
+
+#student-5 ol,
+#student-5 p {
+  margin: auto;
+  padding: 0 2vw;
 }
 
 #student-5 p {
   text-align: center;
-}
-
-#student-5 img {
-
 }
