@@ -8,18 +8,147 @@ body {
   margin: 0 auto;
   width: 1200px;
 }
-
-body section {
-  border: solid thin black;
-}
-#student-14 {
-background: slategray;
-}
-#student-14 a {
-  border: solid 1px red;
-
-}
 /* Style everything scoped to your <section> id! You do not need to use `display: grid` - just stick with the things we learned in class and be creative. `font-family` is already done for you.
 
 Be sure to take pride in your work and organize your styles properly and resolve any 'red lines.'
 */
+
+#student-3 body section {
+  border: solid thin black;
+}
+
+#student-3 h2 {
+  color: #d81e5b;
+  font-weight: bold;
+}
+
+#student-3 li {
+  color: #3a3335;
+  font-weight: lighter;
+}
+
+#student-3 p {
+  color: #000
+  color: #000;
+  background-color: #fdefd5;
+}
+
+#student-4 {
+  background-color: #45e4c1;
+}
+
+#student-4 h2 {
+  background: #f9e5bc;
+  text-shadow: 1.5px 1.5px #065c49;
+  color: #f9e5bc;
+}
+
+#student-4 li {
+  background: #fffdd0;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px #065c49;
+  color: #fffdd0;
+}
+
+#student-4 p {
+  font-style: italic;
+}
+
+#student-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: greenyellow;
+  font-size: 14px;
+}
+
+/* #student-5 .ordered-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2vw;
+} */
+
+#student-5 .container {
+  text-align: center;
+}
+
+#student-5 ol {
+  display: inline-block;
+  list-style-position: inside;
+  text-align: left;
+}
+
+#student-5 .align-center {
+  text-align: center;
+}
+
+#student-5 ol,
+#student-5 p {
+  margin: auto;
+  padding: 0 2vw;
+}
+
+#student-5 p {
+  text-align: center;
+}
+
+#student-9 {
+  color: #fff;
+  text-shadow: 1.5px 1.5px #111;
+  background: -webkit-repeating-linear-gradient(60deg, #111 35%, #223 45%);
+  line-height: 20px;
+}
+
+#student-9 h2 {
+  margin: 0;
+  background: #119;
+  width: 100%;
+  font-size: 25px;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+#student-9 ul {
+  list-style: none;
+  text-decoration: underline;
+}
+
+#student-9 a {
+  color: #fff;
+  text-shadow: 1.5px 1.5px #111;
+  font-weight: 900;
+}
+
+#student-9 q {
+  font-size: 14px;
+}
+
+#student-13 h2 {
+  color:#BB8588;
+  background-color: #EFEBCE;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+#student-13 ul {
+  color: #D8A48F;
+}
+
+#student-13 p {
+  color: black;
+}
+
+#student-14 {
+  background: slategray;
+}
+
+#student-14 a {
+  border: solid 1px red;
+}
+
