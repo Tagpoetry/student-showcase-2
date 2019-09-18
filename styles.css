@@ -9,63 +9,69 @@ body {
   width: 1200px;
 }
 
-#student-3 body section {
-  border: solid thin black;
-}
-
-<<<<<<< HEAD
-#student-13 h2 {
-  color:#BB8588;
-  background-color: #EFEBCE;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: capitalize;
-}
-
-#student-13 ul {
-  color: #D8A48F;
-}
-
-#student-13 p {
-  color: black;
-=======
-#student-3 h2 {
-  color: #D81E5B;
-  font-weight: bold;
-}
-
-#student-3 li {
-color: #3A3335;
-font-weight: lighter;
-}
-
-#student-3 p {
-  color: #000
-  background-color: #FDEFD5;
->>>>>>> 64c65184f52870fade2461526118e74c60a59813
-}
-
 /* Style everything scoped to your <section> id! You do not need to use `display: grid` - just stick with the things we learned in class and be creative. `font-family` is already done for you.
 
 Be sure to take pride in your work and organize your styles properly and resolve any 'red lines.'
 */
 
-#student-8 {
-  background-color: #B5C9BF;
+#student-3 body section {
+  border: solid thin black;
 }
 
-#student-8 a {
-  color: #235258;
-  background: #ffffff;
-  font-size: 25px;
+#student-3 h2 {
+  color: #d81e5b;
+  font-weight: bold;
 }
 
-#student-8 h2 {
-  font-style: italic;
+#student-3 li {
+  color: #3a3335;
+  font-weight: lighter;
 }
 
-#student-8 img {
-  max-width: 250px;
+#student-3 p {
+  color: #000
+  color: #000;
+  background-color: #fdefd5;
+}
+
+#student-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: greenyellow;
+  font-size: 14px;
+}
+
+/* #student-5 .ordered-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2vw;
+} */
+
+#student-5 .container {
+  text-align: center;
+}
+
+#student-5 ol {
+  display: inline-block;
+  list-style-position: inside;
+  text-align: left;
+}
+
+#student-5 .align-center {
+  text-align: center;
+}
+
+#student-5 ol,
+#student-5 p {
+  margin: auto;
+  padding: 0 2vw;
+}
+
+#student-5 p {
+  text-align: center;
 }
 
 #student-9 {
@@ -99,3 +105,19 @@ Be sure to take pride in your work and organize your styles properly and resolve
 #student-9 q {
   font-size: 14px;
 }
+
+#student-13 h2 {
+  color:#BB8588;
+  background-color: #EFEBCE;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+#student-13 ul {
+  color: #D8A48F;
+}
+
+#student-13 p {
+  color: black;
+
