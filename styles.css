@@ -17,3 +17,13 @@ body section {
 
 Be sure to take pride in your work and organize your styles properly and resolve any 'red lines.'
 */
+
+  #student-12 {
+  margin: 0;
+  background-color : plum;
+  text-align: center;
+  padding: 5px;
+  font-family: georgia;
+
+  }
+  #student-12 img {max-width: 100%;}
