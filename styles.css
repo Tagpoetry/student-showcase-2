@@ -9,6 +9,11 @@ body {
   width: 1200px;
 }
 
+/* Style everything scoped to your <section> id! You do not need to use `display: grid` - just stick with the things we learned in class and be creative. `font-family` is already done for you.
+
+Be sure to take pride in your work and organize your styles properly and resolve any 'red lines.'
+*/
+
 #student-3 body section {
   border: solid thin black;
 }
@@ -24,14 +29,10 @@ body {
 }
 
 #student-3 p {
+  color: #000
   color: #000;
   background-color: #fdefd5;
 }
-
-/* Style everything scoped to your <section> id! You do not need to use `display: grid` - just stick with the things we learned in class and be creative. `font-family` is already done for you.
-
-Be sure to take pride in your work and organize your styles properly and resolve any 'red lines.'
-*/
 
 #student-5 {
   display: flex;
@@ -104,3 +105,19 @@ Be sure to take pride in your work and organize your styles properly and resolve
 #student-9 q {
   font-size: 14px;
 }
+
+#student-13 h2 {
+  color:#BB8588;
+  background-color: #EFEBCE;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+#student-13 ul {
+  color: #D8A48F;
+}
+
+#student-13 p {
+  color: black;
+
