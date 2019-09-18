@@ -13,6 +13,10 @@ body {
 Be sure to take pride in your work and organize your styles properly and resolve any 'red lines.'
 */
 
+#student-1 {
+  background-image: "https://picsum.photos/400/400";
+}
+
 #student-3 body section {
   border: solid thin black;
 }
@@ -151,4 +155,3 @@ Be sure to take pride in your work and organize your styles properly and resolve
 #student-14 a {
   border: solid 1px red;
 }
-
