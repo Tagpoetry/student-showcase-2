@@ -8,7 +8,6 @@ header {
 
 Be sure to take pride in your work and organize your styles properly and resolve any 'red lines.'
 */
-
 #student-1 {
   background-image: "https://picsum.photos/400/400";
 }
@@ -65,13 +64,6 @@ Be sure to take pride in your work and organize your styles properly and resolve
   font-size: 14px;
 }
 
-/* #student-5 .ordered-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 2vw;
-} */
-
 #student-5 .container {
   text-align: center;
 }
@@ -94,6 +86,56 @@ Be sure to take pride in your work and organize your styles properly and resolve
 
 #student-5 p {
   text-align: center;
+}
+
+#student-6 header {
+  display: flex;
+  background: #ff0000;
+  justify-content: space-around;
+}
+
+#student-6 img {
+  width: 125px;
+}
+
+#student-6 h1 {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  text-align: center;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 21px;
+}
+
+#student-6 h2 {
+  text-align: center;
+}
+
+#student-6 .help {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: #ffffff;
+}
+
+#student-6 p {
+  font-weight: bolder;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+#student-6 li {
+  font-weight: bolder;
+}
+
+#student-6 ol {
+  /* align-content: center; */
+  border: 5px solid #ff0000;
+  background: #ff0;
+}
+
+#student-6 a {
+  font-size: 12px;
+  font-weight: bold;
 }
 
 #student-9 {
